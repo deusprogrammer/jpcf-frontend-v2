@@ -46,7 +46,7 @@ function setImage(image) {
    var imgHtml = "<img src='" + image.url + "' width='640' height='400'/>";
    $("div#js-slideshow").hide().html(imgHtml).delay(1000).fadeIn("slow");
    $("div#js-banner-text").hide();
-   if (image.text != "" && image.text != null) {
+   if (image.text != "" || image.text != null) {
       $("div#js-banner-text").html(image.text).delay(1000).fadeIn("slow")
    }
 }

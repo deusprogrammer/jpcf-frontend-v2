@@ -411,10 +411,21 @@ footer nav a:hover{color:#fff}
 
 .banner1 {
     position:absolute;
-    top:332px;
-    left:20px;
-    z-index:990;
-    color:#ffffff;
+    top: 350px;
+    left: 0px;
+    height: 31px;
+    width: 622px;
+    z-index: 990;
+    color: white;
+    background-color:black;
+
+    padding: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    opacity:0.7;
+    display: none;
 }
 .slide {
 	width:242px;
